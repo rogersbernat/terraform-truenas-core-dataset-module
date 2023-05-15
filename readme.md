@@ -1,4 +1,3 @@
-```markdown
 # Terraform TrueNAS Datasets Module
 
 This Terraform module creates datasets and nested datasets in a TrueNAS Core.
@@ -51,10 +50,3 @@ Make sure to replace `"github.com/your-username/terraform-truenas-datasets"` wit
 - `nested_dataset_ids` (list(string)): A list of IDs for the nested datasets.
 
 I hope this helps you! Let me know if you have any further questions.
-```
-```
-
-Please note that the example code assumes you have a properly set up Terraform environment and have the required TrueNAS provider plugin installed.
-
-Let me know if you have any further questions or need additional assistance!
-````markdown
