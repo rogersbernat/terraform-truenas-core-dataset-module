@@ -12,4 +12,4 @@ variable "base_url" {
 variable "api_key" {
   description = "API key for authenticating to the TrueNAS server"
   type        = string
-
+}
