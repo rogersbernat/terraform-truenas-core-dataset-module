@@ -43,6 +43,8 @@ Make sure to replace `"github.com/your-username/terraform-truenas-datasets"` wit
 - `pool` (string): The name of the pool where the datasets will be created.
 - `parent_dataset_name` (string): The name of the parent dataset.
 - `nested_datasets` (list(string)): A list of names for the nested datasets.
+- `base_url` (string): Base URL of the TrueNAS server API.
+- `api_key` (string): API key for authenticating to the TrueNAS server.
 
 ## Outputs
 
