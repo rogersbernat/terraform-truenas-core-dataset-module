@@ -9,7 +9,8 @@ variable "nested_datasets" {
   default     = []
 }
 
-variable "parent_dataset_name" {
-  description = "Name of the parent dataset"
-  type        = string
+variable "parent_datasets" {
+  type = map(list(string))
+  default = {
+  }
 }
